@@ -74,7 +74,7 @@ function play(){
         bird_dy = bird_dy + gravity;
         document.addEventListener('keydown', (e) => {
             if(e.key == 'ArrowUp' || e.key == ' '){
-                img.src = './Bird-2.png';
+                img.src = 'Bird-2.png';
                 bird_dy = -7.6;
                 sound_jump.play();
             }
@@ -82,7 +82,7 @@ function play(){
 
         document.addEventListener('keyup', (e) => {
             if(e.key == 'ArrowUp' || e.key == ' '){
-                img.src = './Bird.png';
+                img.src = 'Bird.png';
             }
         });
 
